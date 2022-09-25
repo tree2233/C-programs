@@ -7,7 +7,7 @@ void main()
     if(age>60)
         printf("You are a Sr. Citizen.\n");
     else if(age>=18)
-        printf("You are a Adult.\n");
+        printf("You are an Adult.\n");
     else if(age>=12)
         printf("You are a Teenager.\n");
     else if(age>=4)
