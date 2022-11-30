@@ -5,6 +5,7 @@ void main()
     ptr[0] = &no1;
     ptr[1] = &no2;
     ptr[2] = &m;
+    printf("Size of a memory allocated to pointer array = %d bytes.\n",sizeof(ptr));
     printf("Enter 2 numbers:");
     for(i = 0; i < 2; ++i)
        scanf("%d",ptr[i]);
